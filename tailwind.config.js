@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./public/index.html"],
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: { 
         Montserrat: ["Montserrat", "sans-serif"],
